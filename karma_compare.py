@@ -18,10 +18,10 @@ def userInfo(user1, user2):
     for user in userList:
         rawdata = urllib.request.urlopen('http://www.reddit.com/user/%s.json' % (user)).read()
         data = json.loads(rawdata.decode('utf8'))
-        results = data['data']['children']['data']
+        results = data['data']['children']
         
         for eachResult in results:
-            score.append(eachResult['score'])
+            score.append(eachResult['data']['score'])
             print(score)
     
 
