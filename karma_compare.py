@@ -23,7 +23,6 @@ def userInfo(user1, user2):
 
     userList = [user1, user2]
     total = []
-    score = []
     
     for num in userList:
         #pulls users data from reddit.com/user/
