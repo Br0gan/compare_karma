@@ -1,5 +1,4 @@
-Another redit project attempt.
-
+Another reddit project 
 ---------------------------
 
 Background
